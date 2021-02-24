@@ -104,7 +104,7 @@ function getBaseLog(x, y) {
  * should append number of people to every id as suffix for better Impartiality
 */
 // 所有参与者的 id （以下用名称做演示，开奖时为 Telegram user id）
-var idList = ["@CX03_b","@WeakiKim","@feld66","@UletraMan7","@wowwwwww","@uyu","@yuyu","@wwwww"];
+var idList = ["@CX03_b","@WerakiKim","@feld66","@UltraMan7","@wowwwwww","@uyuyuyu","@yuyu","@wwwww"];
 idList.sort(function(first, second) {
     var res=0;
     if(first>second) res=-1;
