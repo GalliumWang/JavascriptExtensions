@@ -1,3 +1,7 @@
+/**
+ * 可复现的抽奖脚本
+ */
+
 var sha256 = function sha256(ascii) {
 	function rightRotate(value, amount) {
 		return (value>>>amount) | (value<<(32 - amount));
